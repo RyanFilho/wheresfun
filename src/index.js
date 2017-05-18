@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import GettingStartedExample from "./GettingStartedExample"
+// import App from './App';
 import './index.css';
 
 ReactDOM.render(
-  <App />,
+  //<App />,
+  <GettingStartedExample />,
   document.getElementById('root')
 );
