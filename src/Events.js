@@ -1,7 +1,7 @@
 import React from 'react';
-import { Map, TileLayer, Marker, Popup }  from 'react-leaflet';
+import { Marker, Popup }  from 'react-leaflet';
 
-export default class Mapa extends React.Component {
+export default class Events extends React.Component {
   constructor() {
     super();
     this.state = {
